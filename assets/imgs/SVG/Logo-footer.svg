@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="619" height="174" viewBox="0 0 619 174">
+  <g id="Logo-footer" transform="translate(5 5)">
+    <text id="INSTITUTO_DE_FORMACIÓN_TECNICA_SUPERIOR_N_4" data-name="INSTITUTO DE 
+FORMACIÓN TECNICA 
+SUPERIOR N°4" transform="translate(196 51)" fill="#fff" font-size="35" font-family="EastmanTrial-Bold, Eastman Trial" font-weight="700"><tspan x="0" y="0">INSTITUTO DE </tspan><tspan x="0" y="40">FORMACIÓN TECNICA </tspan><tspan x="0" y="80">SUPERIOR N°</tspan><tspan y="80" font-family="Ebrima-Bold, Ebrima">4</tspan></text>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(-3.538 -2.494)">
+      <g id="Circle" transform="translate(3.494 2.494)">
+        <ellipse id="Ellipse_20" data-name="Ellipse 20" cx="81.5" cy="82" rx="81.5" ry="82" transform="translate(0.044)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="10"/>
+        <path id="Path_57" data-name="Path 57" d="M39.49,26.49l24.5,11.284V76.666H39.49Z" transform="translate(2.964 1.705)" fill="#fff"/>
+        <path id="Path_58" data-name="Path 58" d="M63.995,122.666l-24.5-11.272V72.49h24.5Z" transform="translate(2.964 9.382)" fill="#fff"/>
+        <path id="Path_59" data-name="Path 59" d="M65.99,37.43l18.67,8.81V76.591H65.99Z" transform="translate(7.386 3.531)" fill="#fff"/>
+        <path id="Path_60" data-name="Path 60" d="M84.16,112.662l-18.67-8.81V73.49H84.16Z" transform="translate(7.303 9.549)" fill="#fff"/>
+        <path id="Path_61" data-name="Path 61" d="M85.49,30.49l24.5,11.284V80.666H85.49Z" transform="translate(10.641 2.373)" fill="#fff"/>
+        <path id="Path_62" data-name="Path 62" d="M109.995,126.666l-24.5-11.272V76.49h24.5Z" transform="translate(10.641 10.05)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

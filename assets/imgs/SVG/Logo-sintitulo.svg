@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="145.99" height="145.99" viewBox="0 0 145.99 145.99">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0.005 0.005)">
+    <g id="Circle">
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="70.5" cy="70.5" r="70.5" transform="translate(2.49 2.49)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4.99"/>
+      <path id="Path_57" data-name="Path 57" d="M39.49,26.49l21,9.67V69.49h-21Z" fill="#fff"/>
+      <path id="Path_58" data-name="Path 58" d="M60.49,115.49l-21-9.66V72.49h21Z" fill="#fff"/>
+      <path id="Path_59" data-name="Path 59" d="M65.99,37.43l16,7.55V70.99h-16Z" fill="#fff"/>
+      <path id="Path_60" data-name="Path 60" d="M81.49,107.06l-16-7.55V73.49h16Z" fill="#fff"/>
+      <path id="Path_61" data-name="Path 61" d="M85.49,30.49l21,9.67V73.49h-21Z" fill="#fff"/>
+      <path id="Path_62" data-name="Path 62" d="M106.49,119.49l-21-9.66V76.49h21Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
