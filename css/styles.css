@@ -1,0 +1,107 @@
+:root{
+    --subnavbg_color: #24CE89;
+    --navbg_color: #442DAE;
+    --icons_color: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sub__nav{
+    background-color: var(--subnavbg_color);
+    height: 2em;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.section__nav{
+    background-color: var(--navbg_color);
+}
+
+.nv__logo__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img{
+    width: 9em;
+}
+
+.fa-phone,
+.fa-map-marker-alt,
+.fa-clock{
+    color: var(--icons_color);
+}
+
+.dropdown-menu{
+    width: 300px;
+}
+
+.dropdown-menu li{
+    font-size: 1rem;
+}
+
+.hero__banner img{
+    width: 100%;
+    height: 90vh;
+}
+
+.filtro__azul{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(45, 26, 215, 0.5),rgba(45, 26, 215, 0.5));
+}
+
+.logo__ifts img{
+    width: 20em;
+}
+
+.inscription__btn{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 5px solid var(--icons_color);
+    line-height: 1.5;
+    font-size: 3em;
+    text-align: center;
+}
+
+.div__container{
+    /*Toma de referencia al contendor padre, por lo que su 0.0, va a ser el de section__hero__banner*/
+    position: absolute;
+    /*top:50% se va a posicionar al 50% de la altura del contenedor padre
+    y después transform:translateY(-50%), se va a utilizar para posicionar verticalmente al elemento*/
+    top:50%;
+    transform: translateY(-50%);
+    /*z-index: 110, para que se superponga por encima del filtro azul y la imagen*/
+    z-index: 110;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__hero__banner{
+    position: relative;
+    color: var(--icons_color);
+}
+
+.ifts__title{
+    font-size: 3rem;
+    margin-left: 0.5em;
+    font-weight: 600;
+}
+
+/*Sí la pantalla es igual o menor a 453, desaparece el subnav*/
+@media only screen and (max-width: 453px) {
+    .sub__nav{
+        display:none;
+    }
+}
