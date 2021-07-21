@@ -2,12 +2,30 @@
     --subnavbg_color: #24CE89;
     --navbg_color: #442DAE;
     --icons_color: #ffffff;
+    --gradient_color: rgba(45, 26, 215, 0.5);
+}
+
+@font-face {
+    font-family: Ebrima;
+    src: url(/assets/fonts/ebrima.ttf),
+    url(/assets/fonts/ebrima-bold.ttf);
+}
+
+@font-face {
+    font-family: Eastman;
+    src: url(/assets/fonts/EastmanTrial-Bold.otf),
+    url(/assets/fonts/EastmanTrial-Regular.otf),
+    url(/assets/fonts/EastmanTrial-Heavy.otf);
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    line-height: 0;
 }
 
 .sub__nav{
@@ -21,6 +39,8 @@
 
 .section__nav{
     background-color: var(--navbg_color);
+    font-family: Eastman;
+    font-size: 0.65rem;
 }
 
 .nv__logo__links{
@@ -29,7 +49,7 @@
 }
 
 .logo__img{
-    width: 9em;
+    width: 10em;
 }
 
 .fa-phone,
@@ -56,20 +76,32 @@
     z-index: 100;
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(45, 26, 215, 0.5),rgba(45, 26, 215, 0.5));
+    background-image: linear-gradient(var(--gradient_color), var(--gradient_color));
 }
 
 .logo__ifts img{
-    width: 20em;
+    width: 15em;
 }
 
 .inscription__btn{
     display: inline-block;
-    padding: 10px 50px;
+    padding: 0.5em 2em;
     border: 5px solid var(--icons_color);
-    line-height: 1.5;
-    font-size: 3em;
+    font-size: 1.5rem;
     text-align: center;
+    font-family: Ebrima;
+    font-weight: bold;
+}
+
+.inscription__btn:hover{
+    cursor: pointer;
+    background-color: var(--navbg_color);
+}
+
+.row__logo__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div__container{
@@ -94,8 +126,13 @@
 }
 
 .ifts__title{
-    font-size: 3rem;
-    margin-left: 0.5em;
+    font-family: Eastman;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h1 > span{
+    font-family: Ebrima;
     font-weight: 600;
 }
 
