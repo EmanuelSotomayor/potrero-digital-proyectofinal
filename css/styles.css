@@ -4,6 +4,7 @@
     --icons_color: #ffffff;
     --gradient_color: rgba(45, 26, 215, 0.5);
     --counter_text_color: #6B6868;
+    --card__icon__background: #E4E4E4;
 }
 
 @font-face {
@@ -60,11 +61,12 @@ body{
 }
 
 .dropdown-menu{
-    width: 300px;
+    width: 250px;
 }
 
 .dropdown-menu li{
-    font-size: 1rem;
+    font-size: 0.7rem;
+    font-weight: 100;
 }
 
 .hero__banner img{
@@ -92,6 +94,7 @@ body{
     text-align: center;
     font-family: Ebrima;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .inscription__btn:hover{
@@ -156,12 +159,78 @@ div > h2{
     font-size: 2.3rem;
 }
 
-.counters__container{
-    height: 36vh;
-}
-
 div > p{
     font-size: 1.3rem;
+}
+
+.img__monster > img{
+    max-width: 450px;
+    width: 100%;
+}
+
+.ifts__title__paraph{
+    max-width: 550px;
+}
+
+.ifts__title__paraph > h2{
+    color: #442DAE;
+    font-size: 2rem;
+    line-height: 2;
+    font-family: Eastman;
+}
+
+.ifts__title__paraph > p{
+    color: var(--counter_text_color);
+    font-size: 1rem;
+    line-height: 1.8;
+    font-family: Ebrima;
+}
+
+.card__ifts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: var(--icons_color);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.148);
+}
+
+.card__header > h2{
+    line-height: 1;
+    margin-bottom: 10%;
+    font-size: 1rem;
+    color: var(--counter_text_color);
+    font-family: Eastman;
+}
+
+.icon__bg > i{
+    color: var(--navbg_color);
+    font-size: 3rem;
+}
+
+.section__cards__title{
+    font-size: 2rem;
+    color: var(--navbg_color);
+    font-family: Eastman;
+    text-align: center;
+}
+
+.card__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--card__icon__background);
 }
 /*Sí la pantalla es igual o menor a 453, desaparece el subnav*/
 @media only screen and (max-width: 453px) {

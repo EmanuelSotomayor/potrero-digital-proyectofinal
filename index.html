@@ -13,7 +13,7 @@
     </head>
     <body>
       
-        <section role="cabecera" class="header__hero__logo container-fluid m-0 p-0">
+        <section class="header__hero__logo container-fluid m-0 p-0">
             <header class="header__navs">
                 <section class="sub__nav">
                   <div class="icons">
@@ -33,19 +33,21 @@
                   <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid dropdown__logo nv__logo__links row">
                       <div class="col-10 col-sm-8 logo">
-                        <img class="logo__img" src="assets/imgs/SVG/Logo-contitulo.svg" alt="No carga"/>
+                        <a href="index.html">
+                          <img class="logo__img" src="assets/imgs/SVG/Logo-contitulo.svg" alt="No carga"/>
+                        </a>
                       </div>
                       <button class="col-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="col-sm-4 collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                          <strong>
+
                             <li class="nav-item">
                               <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
                             </li>
-                        </strong>
-                        <strong>
+
+
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Planes de estudio
@@ -55,8 +57,8 @@
                               <li><a class="dropdown-item" href="#">Técnicatura superior en <p>administración pública</p></a></li>
                             </ul>
                           </li>
-                        </strong>
-                          <strong>
+
+
                           <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Carreras
@@ -67,17 +69,17 @@
                               <li><a class="dropdown-item" href="#">Inscripción a carreras</a></li>
                             </ul>
                           </li>
-                        </strong>
-                        <strong>
+
+
                           <li>
                             <a class="nav-link active text-white" aria-current="page" href="index.html">Institucional</a>
                           </li>
-                        </strong>
-                        <strong>
+
+
                           <li>
                             <a class="nav-link active text-white" aria-current="page" href="index.html">Contacto</a>
                           </li>
-                        </strong>
+
                         </ul>
                       </div>
                     </div>
@@ -122,7 +124,7 @@
             </header>
           </section>
 
-          <main role="principal" class="container-fluid">
+          <main role="principal" class="container-fluid d-flex flex-column">
             <!--Contadores-->
             <section class="container-fluid counters__container">
               <div class="row">
@@ -151,6 +153,78 @@
               </div>
             </section>
 
+            <section class="container-fluid ifts__estudio mt-5">
+              <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+                  <div class="ifts__title__paraph">
+                    <h2>¿Por qué estudiar en un IFTS?</h2>
+                    <p>
+                      El instituto de formación técnica superior N°4 tiene como misión la formación de técnicos superiores con habilidades, 
+                      competencias y capacidades de alto nivel adecuadas a las demandas sociales, 
+                      a los avances científicos y tecnológicos y a los requerimientos productivos.
+                      Entre sus prioridades figura el uso de tecnologías de información y comunicación y el entrenamiento de sus recursos humanos. 
+                      Este instituto tiende a concentrarse en la educación operacional del mundo del trabajo.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                  <figure class="img__monster">
+                    <img src="assets/imgs/SVG/question.svg" alt="No carga"/>
+                  </figure>
+                </div>
+              </div>
+            </section>
+
+            <section class="container-fluid ifts__compromiso mt-5 min-vh-100">
+              <!--Titulo-->
+              <div class="row">
+                <div class="col-12 col-md-12 d-flex justify-content-center">
+                  <h2 class="section__cards__title">Nuestro compromiso</h2>
+                </div>
+              </div>
+              <!--Cards-->
+              <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center mt-5">
+                  <article class="card__ifts card__A">
+                    <div class="card__header">
+                      <h2>Formar técnicos profesionales</h2>
+                    </div>
+                    <div class="card__body">
+                      <div class="icon__bg">
+                        <i class="fas fa-flask"></i>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-12 col-md-4 d-flex justify-content-center mt-5">
+                  <article class="card__ifts card__B">
+                    <div class="card__header">
+                      <h2>Difundir los avances científicos</h2>
+                    </div>
+                    <div class="card__body">
+                      <div class="icon__bg">
+                        <i class="fas fa-memory"></i>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="col-12 col-md-4 d-flex justify-content-center mt-5">
+                  <article class="card__ifts card__C">
+                    <div class="card__header">
+                      <h2>Impulsar las acciones de cooperación</h2>
+                    </div>
+                    <div class="card__body">
+                      <div class="icon__bg">
+                        <i class="fas fa-comments"></i>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                
+              </div>
+            </section>
           </main>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/popper.min.js"></script>
