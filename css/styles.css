@@ -6,6 +6,7 @@
     --counter_text_color: #6B6868;
     --card__icon__background: #E4E4E4;
     --button__color: #2D58D0;
+    --form_izq_bg_color: #3F3D56;
 }
 
 @font-face {
@@ -98,6 +99,11 @@ body{
     font-family: Ebrima;
     font-weight: bold;
     margin-top: 10px;
+    color: var(--card__icon__background);
+}
+
+a:link{
+    text-decoration: none;
 }
 
 .inscription__btn:hover{
@@ -269,6 +275,50 @@ div > p{
     max-width: 500px;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    max-width: 650px;
+    height: 600px;
+    font-family: Eastman;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.148);
+    font-size: 0.8rem;
+}
+
+.formulario-izq{
+    width: 600px;
+    max-width: 650px;
+    height: 600px;
+    background-color: var(--form_izq_bg_color);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.148);
+}
+
+.email__svg{
+    width: 500px;
+}
+
+input[name="nombre"],
+input[name="apellido"],
+input[name="correo"]{
+    width: 100%;
+    height: 50px;
+}
+
+input[type="submit"]{
+    background-color: var(--button__color);
+    padding: 0.8em;
+    border: none;
+    color: var(--card__icon__background);
+    font-size: 1rem;
+}
+
+.area__texto{
+    min-height: 250px;
+    max-height: 250px;
+}
+
 /*Sí la pantalla es igual o menor a 453, desaparece el subnav*/
 @media only screen and (max-width: 453px) {
     .sub__nav{
@@ -281,5 +331,44 @@ div > p{
 
     .counter{
         margin-top: 2em;
+    }
+
+    .ifts__consultas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .consulta__boton__link{
+        display: flex;
+        justify-content: center;
+    }
+
+    .consulta__titulo{
+        font-size: 2.3rem;
+    }
+
+    .consulta__parrafo{
+        font-size: 1em;
+    }
+
+    .inscription__btn{
+        margin-bottom: 10px;
+    }
+
+    .formulario-izq_col{
+        display: none;
+    }
+    
+}
+
+/*Media query para pantallas large*/
+@media only screen and (max-width: 1280px){
+    .formulario-izq{
+        width: 570px;
+        max-width: 570px;
     }
 }

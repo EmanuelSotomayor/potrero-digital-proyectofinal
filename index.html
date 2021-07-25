@@ -116,9 +116,9 @@
                       </div>
                     </div>
                     <!--Botón de inscripción-->
-                    <div class="col-8 col-sm-3 d-flex justify-content-center align-self-center">
+                    <a href="carreras-inscripcion.html" class="col-8 col-sm-3 d-flex justify-content-center align-self-center">
                       <span class="inscription__btn">INSCRIBITE</span>
-                    </div>
+                    </a>
 
                   </div>
                 </div>
@@ -239,7 +239,7 @@
                         El horario de consulta es de: 18:00 a 21:00hs.
                       </p>
                       <!--Cambiar por el número de whatsapp-->
-                      <a href="index.html">
+                      <a class="consulta__boton__link" href="index.html">
                           <span class="consulta__boton">Envianos un mensaje</span>
                       </a>
                   </div>
@@ -250,10 +250,41 @@
                     <img src="assets/imgs/SVG/message-vector.svg" alt="No carga">
                   </figure>
                 </div>
+              </div>
+            </section>
+            <!--Formulario-->
+            <section class="container">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="formulario-izq_col col-xl-6 col-xxl-5 mt-5">
+                  <div class="formulario-izq d-flex justify-content-center">
+                    <img class="email__svg" src="assets/imgs/SVG/email.svg" alt="No carga"/>
+                  </div>
+                </div>
 
+                <div class="col-12 col-xl-6 col-xxl-7 d-flex justify-content-center mt-5">
+                        <form class="container-fluid formulario" action="" method="POST">
+                          <div class="row">
+                            <div class="col-xxl-6 mt-4">
+                              <input type="text" name="nombre" placeholder="Ingresa tu nombre" required/>
+                            </div>
+                            <div class="col-xxl-6 mt-4">
+                              <input type="text" name="apellido" placeholder="Ingresa tu apellido" required/>
+                            </div>
+                            <div class="col-xxl-12 mt-4">
+                              <input type="email" name="correo" placeholder="Ingresa tu correo electronico" required/>
+                            </div>
+                          </div>
+                            <textarea class="area__texto mt-4" name="mensaje" placeholder="Escribe tu mensaje ..." required></textarea>
+                            <input class="mt-4" type="submit" name="enviar" value="Enviar">
+                        </form>
+                </div>
               </div>
             </section>
           </main>
+
+          <footer class="container-fluid h-40">
+            
+          </footer>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/popper.min.js"></script>
     </body>
