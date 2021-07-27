@@ -7,6 +7,9 @@
     --card__icon__background: #E4E4E4;
     --button__color: #2D58D0;
     --form_izq_bg_color: #3F3D56;
+    --facebook_bg: #3b5998;
+    --instagram_bg: #f56040;
+    --whatsapp_bg: #128C7E;
 }
 
 @font-face {
@@ -256,7 +259,6 @@ div > p{
     background-color: rgba(13, 0, 255, 0.8);
 }
 
-
 .consulta__titulo{
     color: var(--navbg_color);
     font-family: Ebrima;
@@ -304,6 +306,11 @@ input[name="apellido"],
 input[name="correo"]{
     width: 100%;
     height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-left: 5px;
+    color: var(--form_izq_bg_color);
+    outline: none;
 }
 
 input[type="submit"]{
@@ -314,9 +321,69 @@ input[type="submit"]{
     font-size: 1rem;
 }
 
+input[type="submit"]:hover{
+    background-color: rgba(13, 0, 255, 0.8);
+}
+
 .area__texto{
     min-height: 250px;
     max-height: 250px;
+    padding-left: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: var(--form_izq_bg_color);
+    padding-top: 5px;
+    outline: none;
+}
+
+.footer__container{
+    background-color: black;
+    height: 230px;
+}
+
+.logo__titulo{
+    width: 100%;
+    max-width: 400px;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--icons_color);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:hover{
+    border: none;
+}
+
+.fa-facebook-f,
+.fa-whatsapp,
+.fa-instagram{
+    font-size: 2rem;
+    color: var(--icons_color);
+}
+
+.fb:hover{
+    background-color: var(--facebook_bg);
+}
+
+.insta:hover{
+    background-color: var(--instagram_bg);
+}
+
+.wpp:hover{
+    background-color: var(--whatsapp_bg);
+}
+
+.redes__sociales__titulo{
+    color: var(--icons_color);
+    font-size: 1.1rem;
+    font-family: Eastman;
 }
 
 /*Sí la pantalla es igual o menor a 453, desaparece el subnav*/
@@ -362,6 +429,35 @@ input[type="submit"]{
     .formulario-izq_col{
         display: none;
     }
+
+    .maps__iframe{
+        width: 200px;
+        max-width: 360px;
+        margin-bottom: 40px;
+    }
+
+    .logo__col{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo__titulo{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .circle{
+        width: 60px;
+        height: 60px;
+    }
+
+    .map{
+        width: 250px;
+    }
+
+    .footer__container{
+        height: 450px;
+    }
     
 }
 
@@ -371,4 +467,5 @@ input[type="submit"]{
         width: 570px;
         max-width: 570px;
     }
+
 }
