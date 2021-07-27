@@ -14,15 +14,15 @@
 
 @font-face {
     font-family: Ebrima;
-    src: url(/assets/fonts/ebrima.ttf),
-    url(/assets/fonts/ebrima-bold.ttf);
+    src: url(../assets/fonts/ebrima.ttf),
+    url(../assets/fonts/ebrima-bold.ttf);
 }
 
 @font-face {
     font-family: Eastman;
-    src: url(/assets/fonts/EastmanTrial-Bold.otf),
-    url(/assets/fonts/EastmanTrial-Regular.otf),
-    url(/assets/fonts/EastmanTrial-Heavy.otf);
+    src: url(../assets/fonts/EastmanTrial-Bold.otf),
+    url(../assets/fonts/EastmanTrial-Regular.otf),
+    url(../assets/fonts/EastmanTrial-Heavy.otf);
 }
 
 *{
